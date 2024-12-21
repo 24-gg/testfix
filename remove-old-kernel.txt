@@ -1,0 +1,14 @@
+sudo rm /boot/*-6.6.21_1.img
+sudo rm /boot/*-6.6.65_1.img
+sudo rm /boot/*-6.6.66_1.img
+
+sudo rm /boot/*-6.6.21_1
+sudo rm /boot/*-6.6.65_1
+sudo rm /boot/*-6.6.66_1
+
+sudo rm -rf /lib/modules/6.6.21_1
+sudo rm -rf /lib/modules/6.6.65_1
+sudo rm -rf /lib/modules/6.6.66_1
+
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
